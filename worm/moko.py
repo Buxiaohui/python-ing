@@ -56,6 +56,9 @@ def bs4_paraser(html):
                 #print("----------------finalUrl---")
                 #print(finalUrl)
                 detailPageHtml = getHtml(finalUrl)
+                if detailPageHtml is '':
+                    break
+
                 detailSoup = BeautifulSoup(detailPageHtml, 'html.parser')
                 picboxs = detailSoup.find_all('p', attrs={'class': 'picBox'})
                 num = 0
