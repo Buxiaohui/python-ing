@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 names1 = ['a', 'b', 'c', 'd']
-names2 = names1 
+names2 = names1
 names3 = names1[:]
 names2[0] = 'hh'
 print(names1)
@@ -19,7 +19,6 @@ for ls in (names1, names2, names3):
         sum += 1
     if ls[1] == 'ww':
         sum += 10
-
     print(sum)
 
 '''考察的应该是深拷贝 浅拷贝'''
