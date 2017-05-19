@@ -1,15 +1,24 @@
 # encoding 'utf-8'
+import copy
+from copy import deepcopy
 
+origin_map = {'1':1,'num':[1,2,3]}
+map1 = origin_map
+map2 = origin_map.copy()
 
-origin_map = {'1': 1, '2': 2}
-map1 = origin_map.copy()
+#map2['num'] = origin_map['num'].copy()#可以针对子元素执行copy方法
+#map2 = deepcopy(origin_map)#使用deepcopy方法得到的map2 是全部深拷贝的
+#map2 = copy.deepcopy(origin_map) #使用deepcopy方法得到的map2 是全部深拷贝的
 print('----')
 print(origin_map)
 print(map1)
-map1['1'] = 2
+print(map2)
+origin_map['1'] = 2
+origin_map['num'].remove(1)
 print('----')
 print(origin_map)
 print(map1)
+print(str(map2))
 
 '''
 考察dict的浅拷贝，深拷贝
@@ -24,9 +33,9 @@ origin_map['1'] = 2
 origin_map['num'].remove(1)#移除list的第一位
 
 map1 变为：
-{'1':2,'num':[1,2,3]}
-map2 变为：
 {'1':2,'num':[2,3]}
+map2 变为：
+{'1':1,'num':[2,3]}
 
 与java 的 clone 和 直接赋值 还是有些相似的
 '''
