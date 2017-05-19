@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62643d5-ae73-4086-b9b3-602d61fcee75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/syntax/test0049-01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/syntax/test0049.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/syntax/test0051.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syntax/test0047.py" afterPath="$PROJECT_DIR$/syntax/test0047.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test0049-01.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test0049-01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syntax/test0049-01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -84,11 +82,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test0050.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syntax/test0050.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test0051.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/syntax/test0051.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+              <caret line="2784" column="8" lean-forward="false" selection-start-line="2784" selection-start-column="8" selection-end-line="2784" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -132,6 +150,8 @@
         <option value="$PROJECT_DIR$/syntax/test0047.py" />
         <option value="$PROJECT_DIR$/syntax/test0049.py" />
         <option value="$PROJECT_DIR$/syntax/test0049-01.py" />
+        <option value="$PROJECT_DIR$/syntax/test0050.py" />
+        <option value="$PROJECT_DIR$/syntax/test0051.py" />
       </list>
     </option>
   </component>
@@ -199,41 +219,7 @@
       <recent name="$PROJECT_DIR$/worm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test0049-01">
-    <configuration default="false" name="moko_sqlite" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/worm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-ing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/worm/moko_sqlite.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test0048" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/syntax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-ing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0048.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.test0051">
     <configuration default="false" name="test0047" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,6 +267,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-ing" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0049-01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test0050" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/syntax" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-ing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0050.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test0051" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/syntax" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-ing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0051.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -420,19 +440,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.moko_sqlite" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test0048" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test0047" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test0049" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test0049-01" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test0047" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test0049" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test0049-01" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test0050" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test0051" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test0049-01" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test0049" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test0047" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test0048" />
-        <item index="4" class="java.lang.String" itemvalue="Python.moko_sqlite" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test0051" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test0050" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test0049-01" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test0049" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test0047" />
       </list>
     </recent_temporary>
   </component>
@@ -543,14 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="194" column="4" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/syntax/test0049.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -563,6 +575,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syntax/test0050.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2784" column="8" lean-forward="false" selection-start-line="2784" selection-start-column="8" selection-end-line="2784" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syntax/test0051.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>
