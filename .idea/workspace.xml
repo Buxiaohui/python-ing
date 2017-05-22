@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62643d5-ae73-4086-b9b3-602d61fcee75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fantastic_img/model.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fantastic_img/origin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fantastic_img/origin_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fantastic_img/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fantastic_img/transfer_img.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/syntax/test0052.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,73 +18,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="result_at_iteration_8.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result_at_iteration_8.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result_at_iteration_9.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result_at_iteration_9.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_8.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_8.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_9.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_9.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_7.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_7.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_4.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_4.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_5.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_5.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result1_at_iteration_6.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_6.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="test0052.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/syntax/test0052.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -123,6 +59,7 @@
         <option value="$PROJECT_DIR$/syntax/test0050.py" />
         <option value="$PROJECT_DIR$/syntax/test0051.py" />
         <option value="$PROJECT_DIR$/fantastic_img/transfer_img.py" />
+        <option value="$PROJECT_DIR$/syntax/test0052.py" />
       </list>
     </option>
   </component>
@@ -156,10 +93,6 @@
               <option name="myItemId" value="python-ing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="worm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -175,20 +108,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-ing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python-ing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fantastic_img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -200,29 +119,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/fantastic_img" />
       <recent name="$PROJECT_DIR$/syntax" />
+      <recent name="$PROJECT_DIR$/fantastic_img" />
       <recent name="$PROJECT_DIR$/worm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test0051">
-    <configuration default="false" name="test0047" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/syntax" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-ing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0047.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.test0052">
     <configuration default="false" name="test0049" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,6 +189,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-ing" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0051.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test0052" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/syntax" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-ing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/syntax/test0052.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -426,19 +345,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test0047" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test0049" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test0049-01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test0050" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test0051" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test0049" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test0049-01" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test0050" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test0051" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test0052" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test0051" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test0050" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test0049-01" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test0049" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test0047" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test0052" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test0051" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test0050" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test0049-01" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test0049" />
       </list>
     </recent_temporary>
   </component>
@@ -465,9 +384,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38557214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38557214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27985075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27985075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -565,14 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="2784" column="8" lean-forward="false" selection-start-line="2784" selection-start-column="8" selection-end-line="2784" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/copy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -600,11 +511,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fantastic_img/haha_at_iteration_2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fantastic_img/origin.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -702,11 +608,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fantastic_img/result_at_iteration_8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fantastic_img/result1_at_iteration_1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -747,9 +648,35 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fantastic_img/origin.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fantastic_img/result_at_iteration_9.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fantastic_img/result_at_iteration_8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="2823" column="8" lean-forward="false" selection-start-line="2823" selection-start-column="8" selection-end-line="2823" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syntax/test0052.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
