@@ -5,7 +5,6 @@ import urllib
 import requests
 from bs4 import BeautifulSoup
 
-
 class Spider:
     mokoUrl = "http://www.moko.cc/channels/post/23/1.html"
     mokoBaseUrl = "http://www.moko.cc"
