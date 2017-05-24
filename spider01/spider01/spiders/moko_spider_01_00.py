@@ -19,32 +19,64 @@ class MokoSpider02(Spider):
         # print(body)
         # '//'全局查找
         for sel in response.xpath("//ul[@class = 'post small-post']"):
-            print('---sel---')
-            print(sel)
-            print('---sel-extract--')
-            ul = sel.extract()
+            # print('---sel---')
+            # print(sel)
+            # print('---sel-extract--')
+            # ul = sel.extract()
             # print(ul)
 
             # './' 当前的xpath下查找
             # 属性，用@连接
+            img_url = ""
+            child_url_tail = ""
             # try:
-            #     img_url = sel.xpath("./div/a/img/@src2").extract()[0]
+            img_url = sel.xpath("./div/a/img/@src2").extract()[0]
+            child_url_tail = sel.xpath("./div/a/@href").extract()[0]
             # except:
-            #     print('img url is empty')
+            # print('img url error or child_url_tail error')
             # finally:
-            #     print('img url is %s' % img_url)
-            # if not img_url.strip():
-            #     item = Spider01Item()
-            #     item['url'] = img_url
-            #     yield item
+            # print('img url is %s' % img_url)
+            # print('child_url_tail is %s' % child_url_tail)
 
-            print("--li---")
-            print(sel.xpath("/li)"))
-            # for li in sel.xpath("./li)").extract():
-                # print('index is %d' % index)
-                # print('li is %d' % li)
-                   # if index == 0:
-                   #     author = li.xpath("")
-                   # if index == 1:
-                   # if index == 2:
+            item = Spider01Item()
+            # if not img_url.strip():
+            try:
+                print('---img url is %s' % img_url)
+                print('---child_url_tail is %s' % child_url_tail)
+                item['url'] = img_url
+                item['chaildUrlTail'] = child_url_tail
+            except Exception as e:
+                print('---img url error or child_url_tail error')
+                print(e)
+            # yield item
+            # print("--li---")
+            li_path = sel.xpath("./li")
+            # print(li_path)
+            # print(li_path.extract())
+            for li in li_path:
+                author_label = "发布人/"
+                carrer_label = "职业/"
+                hit_num_label = "点击量/"
+                if li.xpath("./label/text()").extract()[0] == author_label:
+                    author = li.xpath("./a/text()").extract()[0]
+                    print("%s is %s" % (li.xpath("./label/text()").extract()[0], author))
+                    try:
+                        item['author'] = author
+                    except Exception as e:
+                        print(e)
+                if li.xpath("./label/text()").extract()[0] == carrer_label:
+                    carrer = li.xpath("./span/text()").extract()[0]
+                    print("%s is %s" % (li.xpath("./label/text()").extract()[0], carrer))
+                    try:
+                        item['carrer'] = carrer
+                    except Exception as e:
+                        print(e)
+                if li.xpath("./label/text()").extract()[0] == hit_num_label:
+                    hit_num = li.xpath("./span/text()").extract()[0]
+                    print("%s is %s" % (li.xpath("./label/text()").extract()[0], hit_num))
+
+                    try:
+                        item['hitNum'] = hit_num
+                    except Exception as e:
+                        print(e)
 
