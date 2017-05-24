@@ -12,6 +12,12 @@ class MokoSpider02(Spider):
     start_urls = ['http://www.moko.cc/channels/post/23/1.html', ]
     x = Spider01Item()
 
+    def parse_child_page(self, response):
+        print("--parse_child")
+
+    def load_child_page(self, d):
+        print("--parse_child")
+
     def parse(self, response):
         current_url = response.url  # 爬取时请求的url
         print('current url is %s' % current_url)
@@ -79,4 +85,3 @@ class MokoSpider02(Spider):
                         item['hitNum'] = hit_num
                     except Exception as e:
                         print(e)
-
