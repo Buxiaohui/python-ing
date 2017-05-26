@@ -1,4 +1,5 @@
 # encoding 'utf-8'
+import scrapy
 from scrapy.spiders import Spider
 import sys
 
@@ -6,17 +7,15 @@ sys.path.append('..')
 from ..items import Spider01Item
 
 
+# from scrapy.crawler import CrawlerProcess
+# from scrapy.conf import settings
+
 class MokoSpider02(Spider):
     name = "MokoSpider02"
-    allowed_domains = ["www.moko.com"]
+    allowed_domains = ["www.moko.com", "www.moko.cc"]
+    base_host = "http://www.moko.cc"
     start_urls = ['http://www.moko.cc/channels/post/23/1.html', ]
     x = Spider01Item()
-
-    def parse_child_page(self, response):
-        print("--parse_child")
-
-    def load_child_page(self, d):
-        print("--parse_child")
 
     def parse(self, response):
         current_url = response.url  # 爬取时请求的url
@@ -54,7 +53,7 @@ class MokoSpider02(Spider):
             except Exception as e:
                 print('---img url error or child_url_tail error')
                 print(e)
-            # yield item
+
             # print("--li---")
             li_path = sel.xpath("./li")
             # print(li_path)
@@ -85,3 +84,30 @@ class MokoSpider02(Spider):
                         item['hitNum'] = hit_num
                     except Exception as e:
                         print(e)
+
+            full_child_url = self.base_host + child_url_tail
+            print("full_child_url is %s" % full_child_url)
+            # http://www.moko.cc/post/1239879.html
+            # 解析子页面，异步，无返回值
+            yield scrapy.Request(url=full_child_url, meta={'item':item},callback=self.parse_child_page, errback=self.error_callback)
+
+    def error_callback(self, response):
+        print("--get child page error_callback")
+
+    def parse_child_page(self, response):
+        item = response.meta['item']
+        print("--parse_child response item")
+        print(item)
+        print("--parse_child response")
+        print("parse_child_page response is %s" % response)
+        child_current_url = response.url  # 爬取时请求的url
+        print("parse_child_page current_url is %s" % child_current_url)
+        # body = response.body
+        pList = response.xpath("//p[@class = 'picBox']/img/@src2").extract()
+        print(pList)
+
+
+
+# process = CrawlerProcess(settings)
+# process.crawl(MokoSpider02)
+# process.start()
