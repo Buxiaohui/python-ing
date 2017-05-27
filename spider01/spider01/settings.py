@@ -13,7 +13,8 @@ BOT_NAME = 'spider01'
 
 SPIDER_MODULES = ['spider01.spiders']
 NEWSPIDER_MODULE = 'spider01.spiders'
-
+SQLITE_FILE = 'example.db'
+SQLITE_TABLE = 'mokoItem'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'spider01 (+http://www.yourdomain.com)'
@@ -64,9 +65,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'spider01.pipelines.Spider01Pipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'spider01.pipelines.Spider01Pipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

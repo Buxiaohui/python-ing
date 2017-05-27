@@ -89,7 +89,8 @@ class MokoSpider02(Spider):
             print("full_child_url is %s" % full_child_url)
             # http://www.moko.cc/post/1239879.html
             # 解析子页面，异步，无返回值
-            yield scrapy.Request(url=full_child_url, meta={'item':item},callback=self.parse_child_page, errback=self.error_callback)
+            yield item
+            #yield scrapy.Request(url=full_child_url, meta={'item':item},callback=self.parse_child_page, errback=self.error_callback)
 
     def error_callback(self, response):
         print("--get child page error_callback")
