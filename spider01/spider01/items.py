@@ -10,14 +10,14 @@ import scrapy
 
 class Spider01Item(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    childUrlCode = scrapy.Field()
     url = scrapy.Field()
     author = scrapy.Field()
     hitNum = scrapy.Field()
     carrer = scrapy.Field()
-    # title = scrapy.Field()
-    chaildUrlTail = scrapy.Field()
-    # imgs = scrapy.Field()
+    title = scrapy.Field()
+    childUrlTail = scrapy.Field()
+    imgs = scrapy.Field()
     '''为什么加了init以后，在给元素赋值的时候会报错，exception打印出来是'_values' '''
     # def __init__(self):
     #     print("init Spider01Item")

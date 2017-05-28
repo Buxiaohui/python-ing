@@ -15,6 +15,7 @@ SPIDER_MODULES = ['spider01.spiders']
 NEWSPIDER_MODULE = 'spider01.spiders'
 SQLITE_FILE = 'example.db'
 SQLITE_TABLE = 'mokoItem'
+SQLITE_TABLE_CHILD = 'mokoItemChild'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'spider01 (+http://www.yourdomain.com)'

@@ -5,6 +5,7 @@ import sys
 
 sys.path.append('..')
 from ..items import Spider01Item
+import re
 
 
 # from scrapy.crawler import CrawlerProcess
@@ -49,7 +50,12 @@ class MokoSpider02(Spider):
                 print('---img url is %s' % img_url)
                 print('---child_url_tail is %s' % child_url_tail)
                 item['url'] = img_url
-                item['chaildUrlTail'] = child_url_tail
+                item['childUrlTail'] = child_url_tail
+                mode = re.compile(r'\d+')
+                childUrlCode = mode.findall(child_url_tail)
+                item['childUrlCode'] = childUrlCode[0]
+                print('----childUrlCode---')
+                print(childUrlCode)
             except Exception as e:
                 print('---img url error or child_url_tail error')
                 print(e)
@@ -89,8 +95,8 @@ class MokoSpider02(Spider):
             print("full_child_url is %s" % full_child_url)
             # http://www.moko.cc/post/1239879.html
             # 解析子页面，异步，无返回值
-            yield item
-            #yield scrapy.Request(url=full_child_url, meta={'item':item},callback=self.parse_child_page, errback=self.error_callback)
+            # yield item
+            yield scrapy.Request(url=full_child_url, meta={'item':item},callback=self.parse_child_page, errback=self.error_callback)
 
     def error_callback(self, response):
         print("--get child page error_callback")
@@ -106,6 +112,8 @@ class MokoSpider02(Spider):
         # body = response.body
         pList = response.xpath("//p[@class = 'picBox']/img/@src2").extract()
         print(pList)
+        item['imgs'] = pList
+        yield item
 
 
 
