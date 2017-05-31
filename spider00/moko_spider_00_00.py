@@ -50,7 +50,7 @@ def bs4_paraser(html):
                 title = aTag.img['alt']
                 #print("----------------title---")
                 #print(title)
-                dirPath = '/Users/bxh/Downloads/' + title
+                dirPath = '~/Downloads/' + title
                 Mkdir(dirPath)
                 finalUrl = mokoBaseUrl + linkTail
                 #print("----------------finalUrl---")
